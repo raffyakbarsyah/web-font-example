@@ -1,9 +1,26 @@
 /* General setup */
 
+@font-face {
+    font-family: 'ChunkFive';
+    src: url('fonts/ChunkFive-Regular.woff2') format('woff2'),
+        url('fonts/ChunkFive-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('fonts/Quicksand-Light.woff2') format('woff2'),
+        url('fonts/Quicksand-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
 html {
   font-size: 10px;
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Chunkfive", sans-serif;
 }
 
 body {
@@ -23,7 +40,10 @@ h2 {
 }
 
 p {
+  font-family: "Quicksand", sans-serif;
   font-size: 1.4rem;
   line-height: 1.6;
   word-spacing: 0.6rem;
 }
+
+
