@@ -1,1 +1,1 @@
-The odin project (just for exercising)
+The odin project (just for exercising).
